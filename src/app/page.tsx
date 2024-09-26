@@ -1,4 +1,5 @@
 "use client";
+import { Button } from "@/components/ui/button";
 // import { Button } from "@/components/ui/button";
 import { motion } from "framer-motion";
 import Link from "next/link";
@@ -53,7 +54,7 @@ export default function Home() {
           transition={{ duration: 0.35, delay: 0.7 }}
         >
           <Link href="/create">
-            {/* <Button className=" mt-3 font-bold p-5">Start Creating</Button> */}
+            <Button className=" mt-3 font-bold p-5">Start Creating</Button>
           </Link>
         </motion.div>
       </div>
